@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Funny &amp; Cute.ttf">
+            <string>Funny&amp;Cute</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="Flappy_Hillary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erq-o7-WVA">
+                                <rect key="frame" x="197" y="224" width="134" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Funny&amp;Cute" family="Funny &amp; Cute" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xE7-zC-8tU">
+                                <rect key="frame" x="16" y="308" width="120" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="PoW-aa-7V3"/>
+                                    <constraint firstAttribute="height" constant="50" id="Qzp-hW-nST"/>
+                                </constraints>
+                                <state key="normal" title="Share"/>
+                                <connections>
+                                    <action selector="shareButtonPressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="F02-Pb-iy4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ThO-Oq-S00">
+                                <rect key="frame" x="239" y="308" width="120" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QSi-xh-noc"/>
+                                    <constraint firstAttribute="width" constant="120" id="yZY-Ac-ccp"/>
+                                </constraints>
+                                <state key="normal" title="Game Center"/>
+                                <connections>
+                                    <action selector="checkGCLeaderboard:" destination="BV1-FR-VrT" eventType="touchUpInside" id="zG7-vm-Oaa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qy8-pX-rNU">
+                                <rect key="frame" x="127" y="383" width="120" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="cxf-xc-sfL"/>
+                                    <constraint firstAttribute="height" constant="50" id="wEQ-PN-V3f"/>
+                                </constraints>
+                                <state key="normal" title="Get Book"/>
+                                <connections>
+                                    <action selector="getBookButtonPressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="N1S-9s-luS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xE7-zC-8tU" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="16" id="EC4-Xt-2wj"/>
+                            <constraint firstItem="ThO-Oq-S00" firstAttribute="centerY" secondItem="3se-qz-xqx" secondAttribute="centerY" id="Ppl-GA-f2k"/>
+                            <constraint firstItem="qy8-pX-rNU" firstAttribute="top" secondItem="xE7-zC-8tU" secondAttribute="bottom" constant="25" id="VMO-lK-ZDB"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="trailing" secondItem="ThO-Oq-S00" secondAttribute="trailing" constant="16" id="pdG-hD-DLQ"/>
+                            <constraint firstItem="xE7-zC-8tU" firstAttribute="centerY" secondItem="3se-qz-xqx" secondAttribute="centerY" id="wvt-EW-gow"/>
+                            <constraint firstItem="qy8-pX-rNU" firstAttribute="centerX" secondItem="3se-qz-xqx" secondAttribute="centerX" id="z1W-nx-CRV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
+                    </view>
+                    <connections>
+                        <outlet property="bookButton" destination="qy8-pX-rNU" id="gKV-5e-FNH"/>
+                        <outlet property="gameCenterButton" destination="ThO-Oq-S00" id="eKE-gQ-WOg"/>
+                        <outlet property="shareButton" destination="xE7-zC-8tU" id="nGh-wr-MRY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

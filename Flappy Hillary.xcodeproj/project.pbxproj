@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8077C8C4BBB1115A48B9D86D /* Pods_Flappy_Hillary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EE50F80082609B08D7B7DF /* Pods_Flappy_Hillary.framework */; };
+		8EC1EB8EBB3B2BEFE5201EB8 /* Pods_Flappy_HillaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7855913933A96E88D826723F /* Pods_Flappy_HillaryUITests.framework */; };
+		C00E22711FF6B60C00991CB8 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E22701FF6B60C00991CB8 /* Background.swift */; };
+		C00E22771FF6C9D800991CB8 /* Funny & Cute.png in Resources */ = {isa = PBXBuildFile; fileRef = C00E22731FF6C9D800991CB8 /* Funny & Cute.png */; };
+		C00E22781FF6C9D800991CB8 /* Funny & Cute.otf in Resources */ = {isa = PBXBuildFile; fileRef = C00E22741FF6C9D800991CB8 /* Funny & Cute.otf */; };
+		C00E22791FF6C9D800991CB8 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = C00E22751FF6C9D800991CB8 /* license.txt */; };
+		C00E227A1FF6C9D800991CB8 /* Funny & Cute.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C00E22761FF6C9D800991CB8 /* Funny & Cute.ttf */; };
+		C01226E41FFC8D4F007FA892 /* icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = C01226E31FFC8D4F007FA892 /* icon1024.png */; };
+		C07520812004852800854DD8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C07520802004852800854DD8 /* GoogleService-Info.plist */; };
+		C075208320048FFC00854DD8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C075208220048FFC00854DD8 /* ViewModel.swift */; };
+		C08BC63B1FF8A96800148FE1 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08BC63A1FF8A96800148FE1 /* Sizes.swift */; };
+		C08BC63D1FF8AD1E00148FE1 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08BC63C1FF8AD1E00148FE1 /* Locations.swift */; };
+		C094092B1FFD771900709100 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C094092A1FFD771900709100 /* GameKit.framework */; };
+		C094092E200467BE00709100 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0C8E7C51FE8016D005CD581 /* Info.plist */; };
+		C09888C51FE83783005A126A /* Pipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09888C41FE83783005A126A /* Pipe.swift */; };
+		C09888C71FEA0B49005A126A /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09888C61FEA0B49005A126A /* Floor.swift */; };
+		C0C8E7B41FE8016D005CD581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8E7B31FE8016D005CD581 /* AppDelegate.swift */; };
+		C0C8E7B61FE8016D005CD581 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C0C8E7B51FE8016D005CD581 /* GameScene.sks */; };
+		C0C8E7B81FE8016D005CD581 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C0C8E7B71FE8016D005CD581 /* Actions.sks */; };
+		C0C8E7BA1FE8016D005CD581 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8E7B91FE8016D005CD581 /* GameScene.swift */; };
+		C0C8E7BC1FE8016D005CD581 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8E7BB1FE8016D005CD581 /* GameViewController.swift */; };
+		C0C8E7BF1FE8016D005CD581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C8E7BD1FE8016D005CD581 /* Main.storyboard */; };
+		C0C8E7C11FE8016D005CD581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C8E7C01FE8016D005CD581 /* Assets.xcassets */; };
+		C0C8E7C41FE8016D005CD581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C8E7C21FE8016D005CD581 /* LaunchScreen.storyboard */; };
+		C0C8E7CF1FE8016D005CD581 /* Flappy_HillaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8E7CE1FE8016D005CD581 /* Flappy_HillaryTests.swift */; };
+		C0C8E7DA1FE8016D005CD581 /* Flappy_HillaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8E7D91FE8016D005CD581 /* Flappy_HillaryUITests.swift */; };
+		C0C8E7E81FE80338005CD581 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8E7E71FE80338005CD581 /* Bird.swift */; };
+		C5D0BD692E751074F380CE9E /* Pods_Flappy_HillaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690FEAB5BF6E7E1FDA16487A /* Pods_Flappy_HillaryTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0C8E7CB1FE8016D005CD581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0C8E7A81FE8016D005CD581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C8E7AF1FE8016D005CD581;
+			remoteInfo = "Flappy Hillary";
+		};
+		C0C8E7D61FE8016D005CD581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0C8E7A81FE8016D005CD581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C8E7AF1FE8016D005CD581;
+			remoteInfo = "Flappy Hillary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0020FED0A5D59C5879998E61 /* Pods-Flappy Hillary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flappy Hillary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flappy Hillary/Pods-Flappy Hillary.release.xcconfig"; sourceTree = "<group>"; };
+		610117A1023C2C7091A7A828 /* Pods-Flappy Hillary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flappy Hillary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flappy Hillary/Pods-Flappy Hillary.debug.xcconfig"; sourceTree = "<group>"; };
+		690FEAB5BF6E7E1FDA16487A /* Pods_Flappy_HillaryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flappy_HillaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7855913933A96E88D826723F /* Pods_Flappy_HillaryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flappy_HillaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D0E636577D0E2C411BEA14 /* Pods-Flappy HillaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flappy HillaryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flappy HillaryUITests/Pods-Flappy HillaryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94EE50F80082609B08D7B7DF /* Pods_Flappy_Hillary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flappy_Hillary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00E22701FF6B60C00991CB8 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		C00E22731FF6C9D800991CB8 /* Funny & Cute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Funny & Cute.png"; sourceTree = "<group>"; };
+		C00E22741FF6C9D800991CB8 /* Funny & Cute.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Funny & Cute.otf"; sourceTree = "<group>"; };
+		C00E22751FF6C9D800991CB8 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		C00E22761FF6C9D800991CB8 /* Funny & Cute.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Funny & Cute.ttf"; sourceTree = "<group>"; };
+		C01226E31FFC8D4F007FA892 /* icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024.png; sourceTree = "<group>"; };
+		C07520802004852800854DD8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C075208220048FFC00854DD8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C08BC63A1FF8A96800148FE1 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		C08BC63C1FF8AD1E00148FE1 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		C094092A1FFD771900709100 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C09888C41FE83783005A126A /* Pipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pipe.swift; sourceTree = "<group>"; };
+		C09888C61FEA0B49005A126A /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		C09888C91FEA1015005A126A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C0C8E7B01FE8016D005CD581 /* Flappy Hillary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Hillary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C8E7B31FE8016D005CD581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0C8E7B51FE8016D005CD581 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C0C8E7B71FE8016D005CD581 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C0C8E7B91FE8016D005CD581 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C0C8E7BB1FE8016D005CD581 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C0C8E7BE1FE8016D005CD581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0C8E7C01FE8016D005CD581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0C8E7C31FE8016D005CD581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0C8E7C51FE8016D005CD581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C8E7CA1FE8016D005CD581 /* Flappy HillaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy HillaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C8E7CE1FE8016D005CD581 /* Flappy_HillaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flappy_HillaryTests.swift; sourceTree = "<group>"; };
+		C0C8E7D01FE8016D005CD581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C8E7D51FE8016D005CD581 /* Flappy HillaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy HillaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C8E7D91FE8016D005CD581 /* Flappy_HillaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flappy_HillaryUITests.swift; sourceTree = "<group>"; };
+		C0C8E7DB1FE8016D005CD581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C8E7E71FE80338005CD581 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		CB67CE4635CB8EB869472083 /* Pods-Flappy HillaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flappy HillaryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flappy HillaryTests/Pods-Flappy HillaryTests.release.xcconfig"; sourceTree = "<group>"; };
+		D67724417886979D3A5D3BBE /* Pods-Flappy HillaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flappy HillaryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flappy HillaryTests/Pods-Flappy HillaryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3A82748938325AA80EC8E19 /* Pods-Flappy HillaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flappy HillaryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flappy HillaryUITests/Pods-Flappy HillaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0C8E7AD1FE8016D005CD581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8077C8C4BBB1115A48B9D86D /* Pods_Flappy_Hillary.framework in Frameworks */,
+				C094092B1FFD771900709100 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C8E7C71FE8016D005CD581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D0BD692E751074F380CE9E /* Pods_Flappy_HillaryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C8E7D21FE8016D005CD581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC1EB8EBB3B2BEFE5201EB8 /* Pods_Flappy_HillaryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		467C99C934A08FBE7CDDCB1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				610117A1023C2C7091A7A828 /* Pods-Flappy Hillary.debug.xcconfig */,
+				0020FED0A5D59C5879998E61 /* Pods-Flappy Hillary.release.xcconfig */,
+				D67724417886979D3A5D3BBE /* Pods-Flappy HillaryTests.debug.xcconfig */,
+				CB67CE4635CB8EB869472083 /* Pods-Flappy HillaryTests.release.xcconfig */,
+				E3A82748938325AA80EC8E19 /* Pods-Flappy HillaryUITests.debug.xcconfig */,
+				88D0E636577D0E2C411BEA14 /* Pods-Flappy HillaryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C00E22721FF6C9D800991CB8 /* funny_cute */ = {
+			isa = PBXGroup;
+			children = (
+				C00E22731FF6C9D800991CB8 /* Funny & Cute.png */,
+				C00E22741FF6C9D800991CB8 /* Funny & Cute.otf */,
+				C00E22751FF6C9D800991CB8 /* license.txt */,
+				C00E22761FF6C9D800991CB8 /* Funny & Cute.ttf */,
+			);
+			path = funny_cute;
+			sourceTree = "<group>";
+		};
+		C08BC63E1FF8AF8F00148FE1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C00E22721FF6C9D800991CB8 /* funny_cute */,
+				C075208220048FFC00854DD8 /* ViewModel.swift */,
+				C08BC63A1FF8A96800148FE1 /* Sizes.swift */,
+				C08BC63C1FF8AD1E00148FE1 /* Locations.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C08BC63F1FF8AFA200148FE1 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8E7E71FE80338005CD581 /* Bird.swift */,
+				C09888C61FEA0B49005A126A /* Floor.swift */,
+				C00E22701FF6B60C00991CB8 /* Background.swift */,
+				C09888C41FE83783005A126A /* Pipe.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		C09888C81FEA1014005A126A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C094092A1FFD771900709100 /* GameKit.framework */,
+				C09888C91FEA1015005A126A /* iAd.framework */,
+				94EE50F80082609B08D7B7DF /* Pods_Flappy_Hillary.framework */,
+				690FEAB5BF6E7E1FDA16487A /* Pods_Flappy_HillaryTests.framework */,
+				7855913933A96E88D826723F /* Pods_Flappy_HillaryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C8E7A71FE8016D005CD581 = {
+			isa = PBXGroup;
+			children = (
+				C0C8E7B21FE8016D005CD581 /* Flappy Hillary */,
+				C0C8E7CD1FE8016D005CD581 /* Flappy HillaryTests */,
+				C0C8E7D81FE8016D005CD581 /* Flappy HillaryUITests */,
+				C0C8E7B11FE8016D005CD581 /* Products */,
+				C09888C81FEA1014005A126A /* Frameworks */,
+				467C99C934A08FBE7CDDCB1D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C0C8E7B11FE8016D005CD581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8E7B01FE8016D005CD581 /* Flappy Hillary.app */,
+				C0C8E7CA1FE8016D005CD581 /* Flappy HillaryTests.xctest */,
+				C0C8E7D51FE8016D005CD581 /* Flappy HillaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0C8E7B21FE8016D005CD581 /* Flappy Hillary */ = {
+			isa = PBXGroup;
+			children = (
+				C01226E31FFC8D4F007FA892 /* icon1024.png */,
+				C08BC63F1FF8AFA200148FE1 /* Objects */,
+				C08BC63E1FF8AF8F00148FE1 /* Utilities */,
+				C0C8E7B31FE8016D005CD581 /* AppDelegate.swift */,
+				C0C8E7B51FE8016D005CD581 /* GameScene.sks */,
+				C0C8E7B71FE8016D005CD581 /* Actions.sks */,
+				C0C8E7B91FE8016D005CD581 /* GameScene.swift */,
+				C0C8E7BB1FE8016D005CD581 /* GameViewController.swift */,
+				C0C8E7BD1FE8016D005CD581 /* Main.storyboard */,
+				C0C8E7C01FE8016D005CD581 /* Assets.xcassets */,
+				C0C8E7C21FE8016D005CD581 /* LaunchScreen.storyboard */,
+				C07520802004852800854DD8 /* GoogleService-Info.plist */,
+				C0C8E7C51FE8016D005CD581 /* Info.plist */,
+			);
+			path = "Flappy Hillary";
+			sourceTree = "<group>";
+		};
+		C0C8E7CD1FE8016D005CD581 /* Flappy HillaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8E7CE1FE8016D005CD581 /* Flappy_HillaryTests.swift */,
+				C0C8E7D01FE8016D005CD581 /* Info.plist */,
+			);
+			path = "Flappy HillaryTests";
+			sourceTree = "<group>";
+		};
+		C0C8E7D81FE8016D005CD581 /* Flappy HillaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0C8E7D91FE8016D005CD581 /* Flappy_HillaryUITests.swift */,
+				C0C8E7DB1FE8016D005CD581 /* Info.plist */,
+			);
+			path = "Flappy HillaryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0C8E7AF1FE8016D005CD581 /* Flappy Hillary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C8E7DE1FE8016D005CD581 /* Build configuration list for PBXNativeTarget "Flappy Hillary" */;
+			buildPhases = (
+				5DEB5B760E6BFD75A8BE7A3A /* [CP] Check Pods Manifest.lock */,
+				C0C8E7AC1FE8016D005CD581 /* Sources */,
+				C0C8E7AD1FE8016D005CD581 /* Frameworks */,
+				C0C8E7AE1FE8016D005CD581 /* Resources */,
+				5754E01EC69897A00D6F0DA2 /* [CP] Embed Pods Frameworks */,
+				E528FB4D4B2B0483ECB16F91 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flappy Hillary";
+			productName = "Flappy Hillary";
+			productReference = C0C8E7B01FE8016D005CD581 /* Flappy Hillary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0C8E7C91FE8016D005CD581 /* Flappy HillaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C8E7E11FE8016D005CD581 /* Build configuration list for PBXNativeTarget "Flappy HillaryTests" */;
+			buildPhases = (
+				EDEA9CA52A1B52CC7C2DA0DF /* [CP] Check Pods Manifest.lock */,
+				C0C8E7C61FE8016D005CD581 /* Sources */,
+				C0C8E7C71FE8016D005CD581 /* Frameworks */,
+				C0C8E7C81FE8016D005CD581 /* Resources */,
+				5C0054E477ECF496D6956E1D /* [CP] Embed Pods Frameworks */,
+				818BF9F19CAB7DD9A9BE873E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C8E7CC1FE8016D005CD581 /* PBXTargetDependency */,
+			);
+			name = "Flappy HillaryTests";
+			productName = "Flappy HillaryTests";
+			productReference = C0C8E7CA1FE8016D005CD581 /* Flappy HillaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0C8E7D41FE8016D005CD581 /* Flappy HillaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C8E7E41FE8016D005CD581 /* Build configuration list for PBXNativeTarget "Flappy HillaryUITests" */;
+			buildPhases = (
+				662C75A6F6FFFD72DBF138A9 /* [CP] Check Pods Manifest.lock */,
+				C0C8E7D11FE8016D005CD581 /* Sources */,
+				C0C8E7D21FE8016D005CD581 /* Frameworks */,
+				C0C8E7D31FE8016D005CD581 /* Resources */,
+				432F757C54837EFCEC294372 /* [CP] Embed Pods Frameworks */,
+				9EA42A8E749BE31B4405A080 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C8E7D71FE8016D005CD581 /* PBXTargetDependency */,
+			);
+			name = "Flappy HillaryUITests";
+			productName = "Flappy HillaryUITests";
+			productReference = C0C8E7D51FE8016D005CD581 /* Flappy HillaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0C8E7A81FE8016D005CD581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Will Clark";
+				TargetAttributes = {
+					C0C8E7AF1FE8016D005CD581 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					C0C8E7C91FE8016D005CD581 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0C8E7AF1FE8016D005CD581;
+					};
+					C0C8E7D41FE8016D005CD581 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0C8E7AF1FE8016D005CD581;
+					};
+				};
+			};
+			buildConfigurationList = C0C8E7AB1FE8016D005CD581 /* Build configuration list for PBXProject "Flappy Hillary" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0C8E7A71FE8016D005CD581;
+			productRefGroup = C0C8E7B11FE8016D005CD581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0C8E7AF1FE8016D005CD581 /* Flappy Hillary */,
+				C0C8E7C91FE8016D005CD581 /* Flappy HillaryTests */,
+				C0C8E7D41FE8016D005CD581 /* Flappy HillaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0C8E7AE1FE8016D005CD581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C8E7BF1FE8016D005CD581 /* Main.storyboard in Resources */,
+				C0C8E7B61FE8016D005CD581 /* GameScene.sks in Resources */,
+				C00E22771FF6C9D800991CB8 /* Funny & Cute.png in Resources */,
+				C01226E41FFC8D4F007FA892 /* icon1024.png in Resources */,
+				C0C8E7C11FE8016D005CD581 /* Assets.xcassets in Resources */,
+				C07520812004852800854DD8 /* GoogleService-Info.plist in Resources */,
+				C00E22791FF6C9D800991CB8 /* license.txt in Resources */,
+				C0C8E7C41FE8016D005CD581 /* LaunchScreen.storyboard in Resources */,
+				C0C8E7B81FE8016D005CD581 /* Actions.sks in Resources */,
+				C094092E200467BE00709100 /* Info.plist in Resources */,
+				C00E22781FF6C9D800991CB8 /* Funny & Cute.otf in Resources */,
+				C00E227A1FF6C9D800991CB8 /* Funny & Cute.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C8E7C81FE8016D005CD581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C8E7D31FE8016D005CD581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		432F757C54837EFCEC294372 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flappy HillaryUITests/Pods-Flappy HillaryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5754E01EC69897A00D6F0DA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Flappy Hillary/Pods-Flappy Hillary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flappy Hillary/Pods-Flappy Hillary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C0054E477ECF496D6956E1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flappy HillaryTests/Pods-Flappy HillaryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DEB5B760E6BFD75A8BE7A3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flappy Hillary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		662C75A6F6FFFD72DBF138A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flappy HillaryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		818BF9F19CAB7DD9A9BE873E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flappy HillaryTests/Pods-Flappy HillaryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EA42A8E749BE31B4405A080 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flappy HillaryUITests/Pods-Flappy HillaryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E528FB4D4B2B0483ECB16F91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flappy Hillary/Pods-Flappy Hillary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDEA9CA52A1B52CC7C2DA0DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flappy HillaryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0C8E7AC1FE8016D005CD581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C075208320048FFC00854DD8 /* ViewModel.swift in Sources */,
+				C08BC63D1FF8AD1E00148FE1 /* Locations.swift in Sources */,
+				C09888C71FEA0B49005A126A /* Floor.swift in Sources */,
+				C0C8E7BA1FE8016D005CD581 /* GameScene.swift in Sources */,
+				C0C8E7BC1FE8016D005CD581 /* GameViewController.swift in Sources */,
+				C0C8E7E81FE80338005CD581 /* Bird.swift in Sources */,
+				C08BC63B1FF8A96800148FE1 /* Sizes.swift in Sources */,
+				C00E22711FF6B60C00991CB8 /* Background.swift in Sources */,
+				C09888C51FE83783005A126A /* Pipe.swift in Sources */,
+				C0C8E7B41FE8016D005CD581 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C8E7C61FE8016D005CD581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C8E7CF1FE8016D005CD581 /* Flappy_HillaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C8E7D11FE8016D005CD581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C8E7DA1FE8016D005CD581 /* Flappy_HillaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0C8E7CC1FE8016D005CD581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0C8E7AF1FE8016D005CD581 /* Flappy Hillary */;
+			targetProxy = C0C8E7CB1FE8016D005CD581 /* PBXContainerItemProxy */;
+		};
+		C0C8E7D71FE8016D005CD581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0C8E7AF1FE8016D005CD581 /* Flappy Hillary */;
+			targetProxy = C0C8E7D61FE8016D005CD581 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0C8E7BD1FE8016D005CD581 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C8E7BE1FE8016D005CD581 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0C8E7C21FE8016D005CD581 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C8E7C31FE8016D005CD581 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0C8E7DC1FE8016D005CD581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0C8E7DD1FE8016D005CD581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0C8E7DF1FE8016D005CD581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610117A1023C2C7091A7A828 /* Pods-Flappy Hillary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFP4MM8ANM;
+				INFOPLIST_FILE = "Flappy Hillary/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pcpublishing.swamp-war";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C0C8E7E01FE8016D005CD581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0020FED0A5D59C5879998E61 /* Pods-Flappy Hillary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BFP4MM8ANM;
+				INFOPLIST_FILE = "Flappy Hillary/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pcpublishing.swamp-war";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C0C8E7E21FE8016D005CD581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67724417886979D3A5D3BBE /* Pods-Flappy HillaryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54AV24VF28;
+				INFOPLIST_FILE = "Flappy HillaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WillClark.Flappy-HillaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Hillary.app/Flappy Hillary";
+			};
+			name = Debug;
+		};
+		C0C8E7E31FE8016D005CD581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB67CE4635CB8EB869472083 /* Pods-Flappy HillaryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54AV24VF28;
+				INFOPLIST_FILE = "Flappy HillaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WillClark.Flappy-HillaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flappy Hillary.app/Flappy Hillary";
+			};
+			name = Release;
+		};
+		C0C8E7E51FE8016D005CD581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A82748938325AA80EC8E19 /* Pods-Flappy HillaryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54AV24VF28;
+				INFOPLIST_FILE = "Flappy HillaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WillClark.Flappy-HillaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flappy Hillary";
+			};
+			name = Debug;
+		};
+		C0C8E7E61FE8016D005CD581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D0E636577D0E2C411BEA14 /* Pods-Flappy HillaryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54AV24VF28;
+				INFOPLIST_FILE = "Flappy HillaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WillClark.Flappy-HillaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flappy Hillary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0C8E7AB1FE8016D005CD581 /* Build configuration list for PBXProject "Flappy Hillary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C8E7DC1FE8016D005CD581 /* Debug */,
+				C0C8E7DD1FE8016D005CD581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C8E7DE1FE8016D005CD581 /* Build configuration list for PBXNativeTarget "Flappy Hillary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C8E7DF1FE8016D005CD581 /* Debug */,
+				C0C8E7E01FE8016D005CD581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C8E7E11FE8016D005CD581 /* Build configuration list for PBXNativeTarget "Flappy HillaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C8E7E21FE8016D005CD581 /* Debug */,
+				C0C8E7E31FE8016D005CD581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C8E7E41FE8016D005CD581 /* Build configuration list for PBXNativeTarget "Flappy HillaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C8E7E51FE8016D005CD581 /* Debug */,
+				C0C8E7E61FE8016D005CD581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0C8E7A81FE8016D005CD581 /* Project object */;
+}
